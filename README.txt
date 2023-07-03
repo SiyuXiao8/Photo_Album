@@ -1,3 +1,4 @@
+To run the program use: 'java -jar shapeApp.jar -in (input txt file) -view (graphical or web) (if web view also enter -out (provide output file name))'
 Model:
 -For the model part I modified moveShape, changeColor, resizeShape, removeShape methods to changes  shapes info based on the name of the shape. Before I implement it in a way that you can only for example move the shape by passing in that object to modify its information. Now you can just pass in the name of the shape you want to modify.
 -Also modified the snapshot Method. Now I will store the information about the current album(a list of shapes) into a list when user called the snapshot method.
